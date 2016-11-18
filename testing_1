@@ -1,0 +1,7 @@
+import ast
+import csv
+
+
+with open('testing_email_clicks_fave_nov_7','r') as f:
+    string = f.read()
+    clicks_parsed = ast.literal_eval(string)
